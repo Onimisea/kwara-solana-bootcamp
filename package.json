@@ -1,0 +1,27 @@
+{
+  "name": "sol30",
+  "version": "1.0.0",
+  "description": "30-day Solana Bootcamp course project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana-developers/helpers": "^2.3.0",
+    "@solana/web3.js": "^1.95.0",
+    "dotenv": "^16.4.5",
+    "esrun": "^3.2.26"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.3"
+  }
+}
